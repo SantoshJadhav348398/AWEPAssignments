@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="PracticeExam.css"> 
+  <script src = "PracticeExam.js"></script>
+</head>
+<body>
+  <div class = "loginbox">
+    <form onclick="validation()">
+      <div class = "loginform">
+        <h1 class="login">Login Form</h1>
+          <div class = "container">
+            <div class = "label"style = "flex:1;"><b>Username</b></div><br>
+            <input id = "unm" type="text" style = "flex:3;" placeholder="Enter Username" name="uname" required><br>
+            <span id="uvalidation" style="color:red"></span>
+            <span id="uvalidation1" style="color:green"></span>
+          </div>
+          <div class = "container">
+            <div style = "flex:1;"><b>Password</b></div><br>
+            <input id = "pwd" type="password" style = "flex:3;" placeholder="Enter Password" name="psw" required><br>
+            <span id="pvalidation" style="color:red"></span>
+            <span id="pvalidation1" style="color:green"></span>
+          </div>
+          <div class = "ck">
+            <input type="checkbox" > Remember me
+          </div>
+          <div class = "ck">
+            <br><input type="checkbox"> Keep Me Signed In
+          </div>
+          <button type="submit" name = "login" value="sign in">login</button><br>
+      </div>    
+    </form>
+  </div>
+</body>
+</html>

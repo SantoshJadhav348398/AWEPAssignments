@@ -1,0 +1,115 @@
+body
+{
+    font-size:15px;
+    line-height:1.5;
+    padding:0;
+    margin:0;
+    background-color:white;
+    width:100%;
+    margin:0;
+    padding:0;
+    background:url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1153&q=80');
+    background-size:cover;
+    background-position:center;
+    font-family:sans-serif;
+    color:aliceblue;
+
+}
+.login
+{
+    color: aliceblue;
+}
+.loginbox{
+    width:400px;
+    height:500px;
+    background:black;
+    color:white;
+    top:50%;
+    left:50%;
+    right:50%;
+    bottom:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing : border-box;
+    padding: 10px 50px;
+}
+.container
+{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+.loginbox label
+{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+}
+.loginbox input[type = "text"],[type = "password"]
+{
+    width:90%;
+    margin-bottom:20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+    border:none;
+    border-bottom:1px solid green;
+    background:transparent;
+    outline:none;
+    height:40px;
+    color:white;
+    font-size:16px;
+}
+.loginbox textarea
+{
+    width:90%;
+    margin-bottom:20px;
+}
+.loginbox textarea
+{
+    border:none;
+    border-bottom:1px solid green;
+    background:transparent;
+    outline:none;
+    height:40px;
+    color:white;
+    font-size:16px;
+}
+.loginbox button[type="submit"]
+{
+    border:none;
+    outline:none;
+    background:green;
+    color:white;
+    font-size:18px;
+    border-radius:20px;
+    height:40px;
+    width:100%;
+}
+.loginbox button[type="submit"]:hover{
+    cursor:pointer;
+    background:red;
+    color:black;
+}
+.loginbox button[type="button"]
+{
+    border:none;
+    outline:none;
+    background:white;
+    color:black;
+    font-size:18px;
+    border-radius:20px;
+    height:40px;
+    width:100%;
+}
+.loginbox button[type="button"]:hover{
+    cursor:pointer;
+    background:red;
+    color:black;
+}
+#pvalidation,#uvalidation
+{
+    color:white;
+}
+
+

@@ -1,0 +1,36 @@
+#container{
+    background-color: aliceblue;
+}
+.end
+{
+    width:300px;
+    height:300px;
+    background-color: burlywood;
+    top:20%;
+    left:40%;
+    bottom:10%;
+    right:10%;
+    position:absolute;
+    box-sizing : border-box;
+    padding: 50px 30px;
+}
+#lowerip
+{
+    padding:8% 12%s;
+    margin:auto;
+    color: black;
+    width : 80%;
+    margin-bottom: 20px;
+    padding:0%;
+    font-weight: bold;
+}
+#addip
+{
+    padding:8% 12%s;
+    margin:auto;
+    color: black;
+    width : 80%;
+    margin-bottom: 20px;
+    padding:0%;
+    font-weight: bold;
+}

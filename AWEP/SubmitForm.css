@@ -1,0 +1,32 @@
+#container
+{
+    background-color:aquamarine;
+}
+.cdac
+{
+    width:500px;
+    height:400px;
+    background:royalblue;
+    color:white;
+    top:20%;
+    left:35%;
+    right:10%;
+    bottom:10%;
+    position:absolute;
+    box-sizing : border-box;
+    padding: 50px 30px;
+}
+.aaa
+{
+    width : 80%;
+    margin-bottom: 20px;
+    padding:0%;
+    font-weight: bold;
+}
+.bbb
+{
+    padding:8% 12%s;
+    margin:auto;
+    color: black;
+    
+}
